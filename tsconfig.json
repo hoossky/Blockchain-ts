@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        // Node js 
+        // import, export 사용
+        "module": "commonjs",
+        // 어떤 버전의 JavaScript 로 컴파일되고 싶은지
+        "target": "ES2015",
+        // 소스맵 처리 유무
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    // 컴파일 과정에서 포함할 파일
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]    
+}
